@@ -1,0 +1,10 @@
+defaultTasks 'classes'
+
+apply plugin: "java"
+
+repositories {
+  mavenCentral()
+}
+
+sourceCompatibility = 17
+targetCompatibility = 17
